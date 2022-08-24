@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [AjuSuite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testpack.VerifyHedersOfApp">
+        <methods>
+          <include name="verifyReportButton"/>
+          <include name="launchBrowser"/>
+          <include name="clearObject"/>
+          <include name="logoutFromApplication"/>
+          <include name="closedBrowser"/>
+          <include name="createPOMObject"/>
+          <include name="verifyTaskButton"/>
+          <include name="loginPageToApplication"/>
+        </methods>
+      </class> <!-- testpack.VerifyHedersOfApp -->
+      <class name="testpack.TestClass1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testB"/>
+          <include name="beforetest"/>
+          <include name="beforeClass"/>
+          <include name="testF"/>
+          <include name="afterMethod"/>
+          <include name="aftertest"/>
+          <include name="testA"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- testpack.TestClass1 -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed) -->
+  <test thread-count="5" name="firefoxTest(failed)(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testpack.VerifyHedersOfApp">
+        <methods>
+          <include name="verifyReportButton"/>
+          <include name="launchBrowser"/>
+          <include name="clearObject"/>
+          <include name="logoutFromApplication"/>
+          <include name="closedBrowser"/>
+          <include name="createPOMObject"/>
+          <include name="verifyTaskButton"/>
+          <include name="loginPageToApplication"/>
+        </methods>
+      </class> <!-- testpack.VerifyHedersOfApp -->
+      <class name="testpack.TestClass1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testB"/>
+          <include name="beforetest"/>
+          <include name="beforeClass"/>
+          <include name="testF"/>
+          <include name="afterMethod"/>
+          <include name="aftertest"/>
+          <include name="testA"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- testpack.TestClass1 -->
+    </classes>
+  </test> <!-- firefoxTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [AjuSuite]] -->

@@ -14,16 +14,5 @@ public class repoex {
 		 System.out.println("here is the risk and exception is coming " + 
 		messge.getMessage() ); 
 		 
-		 } 
-		 
-		 ////////drive logout nahi hua hey 
-		 finally { 
-		 /// mera google drive logout kar do 
-		 System.out.println("finally will alys run no matter what "); 
-		 } 
-		 
-		 System.out.println("6"); 
-		 System.out.println("7"); 
-		 System.out.println("8"); 
 	}
 }

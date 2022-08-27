@@ -7,9 +7,9 @@ public class Class {
 	
 	
 	public static void main(String[] args) throws InterruptedException {
-		System.out.println("hi");
-		Thread.sleep(2000);
-		System.out.println("world1");
+// 		System.out.println("hi");
+// 		Thread.sleep(2000);
+// 		System.out.println("world1");
 	}
 
 }
